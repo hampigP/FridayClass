@@ -126,13 +126,13 @@ public class MainActivity extends AppCompatActivity {
                //POST 部分 頭 part 1
                /*
                RequestBody formBody = new FormBody.Builder()
-                       .add("type",""+type)
-                       .add("id","+id")
-                       .build();
-               Request request = new Request.Builder()
-                       .url("http://192.168.8.171:8080/NewServlet/ImageShower")
-                       .post(formBody)
-                       .build();
+                        .add("type",""+ type)
+                        .add("id",""+ id)
+                        .build();
+                Request request = new Request.Builder()
+                        .url("http://10.20.22.242:8080/MyServlet/ImageShower")
+                        .post(formBody)
+                        .build();
 
                //POST 部分 尾
 
